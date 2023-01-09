@@ -4,7 +4,7 @@ _More details about project is in Assignment Word file
 ## How to run
 
 - Clone repo from the github link
-- gitHub link :- **https://github.com**
+- gitHub link :- **https://github.com/Akash-Kumar-Verma/Flipkart-Automation**
 - run RunAssignment.bat
 
 ## Main Parameters in Configuration.properties file
