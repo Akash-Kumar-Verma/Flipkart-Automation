@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="TestCases.Travel">
+        <methods>
+          <include name="endReport"/>
+          <include name="whenUserEntersInvalidFromAndInValidTo"/>
+          <include name="whenUserEntersInvalidFromAndValidTo"/>
+          <include name="whenUserEntersValidFromAndInvalidTo"/>
+          <include name="navigateToURL"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.Travel -->
+      <class name="TestCases.FashionPageTest">
+        <methods>
+          <include name="FashionTest"/>
+          <include name="endReport"/>
+          <include name="navigateToURL"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.FashionPageTest -->
+      <class name="TestCases.Appliences">
+        <methods>
+          <include name="AppliencesTest"/>
+          <include name="endReport"/>
+          <include name="navigateToURL"/>
+          <include name="tearDown"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- TestCases.Appliences -->
+      <class name="TestCases.ProductSearch">
+        <methods>
+          <include name="InvalidProductSearch"/>
+          <include name="endReport"/>
+          <include name="navigateToURL"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.ProductSearch -->
+      <class name="TestCases.AddToCart">
+        <methods>
+          <include name="endReport"/>
+          <include name="navigateToURL"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+          <include name="addtoCard"/>
+        </methods>
+      </class> <!-- TestCases.AddToCart -->
+      <class name="TestCases.loginTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="LoginWithInvalidDataTest"/>
+          <include name="navigateToURL"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.loginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

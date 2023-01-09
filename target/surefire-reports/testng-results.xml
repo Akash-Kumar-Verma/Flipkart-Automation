@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-09T15:50:58 IST" name="Suite" finished-at="2023-01-09T15:54:14 IST" duration-ms="195857">
+    <groups>
+    </groups>
+    <test started-at="2023-01-09T15:50:58 IST" name="Test" finished-at="2023-01-09T15:54:14 IST" duration-ms="195857">
+      <class name="TestCases.Travel">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:50:58 IST" name="initDriver" finished-at="2023-01-09T15:51:00 IST" duration-ms="2465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:51:00 IST" name="navigateToURL" finished-at="2023-01-09T15:51:44 IST" duration-ms="43797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="whenUserEntersValidFromAndValidTo()[pri:1, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:51:44 IST" name="whenUserEntersValidFromAndValidTo" finished-at="2023-01-09T15:51:46 IST" duration-ms="2346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserEntersValidFromAndValidTo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:51:46 IST" name="tearDown" finished-at="2023-01-09T15:51:48 IST" duration-ms="1241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserEntersValidFromAndValidTo status=SUCCESS method=Travel.whenUserEntersValidFromAndValidTo()[pri:1, instance:TestCases.Travel@6035b93b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:51:48 IST" name="initDriver" finished-at="2023-01-09T15:51:49 IST" duration-ms="1443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:51:49 IST" name="navigateToURL" finished-at="2023-01-09T15:52:35 IST" duration-ms="45655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="whenUserEntersValidFromAndInvalidTo()[pri:2, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:52:35 IST" name="whenUserEntersValidFromAndInvalidTo" finished-at="2023-01-09T15:52:36 IST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserEntersValidFromAndInvalidTo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:52:36 IST" name="tearDown" finished-at="2023-01-09T15:52:37 IST" duration-ms="1190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserEntersValidFromAndInvalidTo status=SUCCESS method=Travel.whenUserEntersValidFromAndInvalidTo()[pri:2, instance:TestCases.Travel@6035b93b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:52:37 IST" name="initDriver" finished-at="2023-01-09T15:52:38 IST" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:52:38 IST" name="navigateToURL" finished-at="2023-01-09T15:53:24 IST" duration-ms="45388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="whenUserEntersInvalidFromAndValidTo()[pri:3, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:53:24 IST" name="whenUserEntersInvalidFromAndValidTo" finished-at="2023-01-09T15:53:25 IST" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserEntersInvalidFromAndValidTo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:53:25 IST" name="tearDown" finished-at="2023-01-09T15:53:26 IST" duration-ms="1173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserEntersInvalidFromAndValidTo status=SUCCESS method=Travel.whenUserEntersInvalidFromAndValidTo()[pri:3, instance:TestCases.Travel@6035b93b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:53:26 IST" name="initDriver" finished-at="2023-01-09T15:53:27 IST" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:53:27 IST" name="navigateToURL" finished-at="2023-01-09T15:54:11 IST" duration-ms="43867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="whenUserEntersInvalidFromAndInValidTo()[pri:4, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:54:11 IST" name="whenUserEntersInvalidFromAndInValidTo" finished-at="2023-01-09T15:54:12 IST" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserEntersInvalidFromAndInValidTo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:54:12 IST" name="tearDown" finished-at="2023-01-09T15:54:13 IST" duration-ms="1159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserEntersInvalidFromAndInValidTo status=SUCCESS method=Travel.whenUserEntersInvalidFromAndInValidTo()[pri:4, instance:TestCases.Travel@6035b93b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:TestCases.Travel@6035b93b]" started-at="2023-01-09T15:54:13 IST" name="endReport" finished-at="2023-01-09T15:54:14 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- TestCases.Travel -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
