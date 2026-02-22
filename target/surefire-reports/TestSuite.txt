@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 196.855 s - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 47.966 s <<< FAILURE! - in TestSuite
+TestCases.Appliences.AppliencesTest  Time elapsed: 29.393 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at TestCases.Appliences.AppliencesTest(Appliences.java:55)
+

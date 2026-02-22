@@ -5,18 +5,15 @@ import java.time.Duration;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+import Automation.Utilities.ReadingPropertiesFile;
+import Automation.Utilities.ScreenShots;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
-
-import Automation.Utilities.ReadingPropertiesFile;
-import Automation.Utilities.ScreenShots;
 
 public class BaseClass {
 
@@ -54,11 +51,9 @@ public class BaseClass {
 
 		if (headlessMode) {
 			System.out.println("---- headless---");
-
 			driver = HelperClass.startBrowserInHeadless();
 		} else {
-			System.out.println("---- Nonheadless---");
-
+			System.out.println("---- Non headless---");
 			driver = HelperClass.startBrowserInNonHeadless();
 		}
 

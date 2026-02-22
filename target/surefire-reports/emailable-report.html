@@ -9,13 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">195,857</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">46,353</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">TestCases.Travel</td><td><a href="#m0">whenUserEntersInvalidFromAndInValidTo</a></td><td rowspan="1">1673259851459</td><td rowspan="1">886</td></tr><tr class="passedeven"><td><a href="#m1">whenUserEntersInvalidFromAndValidTo</a></td><td rowspan="1">1673259804093</td><td rowspan="1">985</td></tr><tr class="passedeven"><td><a href="#m2">whenUserEntersValidFromAndInvalidTo</a></td><td rowspan="1">1673259755157</td><td rowspan="1">972</td></tr><tr class="passedeven"><td><a href="#m3">whenUserEntersValidFromAndValidTo</a></td><td rowspan="1">1673259704472</td><td rowspan="1">2346</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCases.Appliences</td><td><a href="#m0">AppliencesTest</a></td><td rowspan="1">1771660293753</td><td rowspan="1">29387</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">TestCases.Travel#whenUserEntersInvalidFromAndInValidTo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TestCases.Travel#whenUserEntersInvalidFromAndValidTo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">TestCases.Travel#whenUserEntersValidFromAndInvalidTo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">TestCases.Travel#whenUserEntersValidFromAndValidTo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">TestCases.Appliences#AppliencesTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.sendKeys(Unknown Source)
+	at flipkart.Pages.AppliencesPage.ClickOnSearchBox(AppliencesPage.java:46)
+	at TestCases.Appliences.AppliencesTest(Appliences.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

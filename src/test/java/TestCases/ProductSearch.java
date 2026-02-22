@@ -1,5 +1,6 @@
 package TestCases;
 
+import java.time.Duration;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
@@ -41,7 +42,7 @@ public class ProductSearch extends BaseClass {
 		logger.info("close Banner is button was clicked");
 		extentTest.log(LogStatus.INFO, "close Banner is button was clicked");
 
-		driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		// search the product
 		driver.findElement(Productsearch.search_Box).sendKeys(input);
 		logger.info("search valid keyword is send");
@@ -92,7 +93,7 @@ public class ProductSearch extends BaseClass {
 		logger.info("close Banner is button was clicked");
 		extentTest.log(LogStatus.INFO, "close Banner is button was clicked");
 
-		driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		// search the product
 		driver.findElement(Productsearch.search_Box).sendKeys(input);
 		logger.info("search invalid keyword is send");

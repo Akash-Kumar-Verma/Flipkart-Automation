@@ -9,13 +9,16 @@ public class AppliencesPage {
 	//div[contains(text(),'Adsun 80 cm (32 inch) HD Ready LED TV')]
 	WebDriver driver;
 
-	@FindBy(xpath = "/html/body/div[2]/div/div/button")
-	WebElement close_btn;
+	@FindBy(xpath = "//span[@role='button']")
+	WebElement closeLoginBanner;
 
-	@FindBy(xpath = "/html/body/div[1]/div/div[2]/div/div/div[6]/a")
-	WebElement applience;
+	@FindBy(xpath = "//span[@class='QEI82B']")
+	WebElement LoginText;
 
-	@FindBy(xpath = "//body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/input[1]")
+	@FindBy(xpath = "//div[contains(text(), 'Appliances ')]")
+	WebElement Appliences;
+
+	@FindBy(xpath = "(//div[@class=\"Afujtw\"]//input[@title=\"Search for Products, Brands and More\"])[1]")
 	WebElement search_Box;
 
 	@FindBy(xpath = "//body/div[@id='container']/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/button[1]/*[1]")
@@ -30,11 +33,13 @@ public class AppliencesPage {
 	}
 
 	public void CloseLoginBanner() {
-		close_btn.click();
+		if(LoginText.isDisplayed()) {
+			closeLoginBanner.click();
+		}
 	}
 
 	public void ClickOnAppliances() {
-		applience.click();
+		Appliences.click();
 	}
 
 	public void ClickOnSearchBox(String items) {

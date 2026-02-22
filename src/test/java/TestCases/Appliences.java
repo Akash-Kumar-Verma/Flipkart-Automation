@@ -27,12 +27,12 @@ public class Appliences extends BaseClass {
 		// Fetching all test data from excel file
 		HashMap<String, String> testData = new HashMap<String, String>();
 		testData = reader.getRowTestData(sheetName, testName);
-		String executionRequired = testData.get("Execution Required").toLowerCase();
+		//String executionRequired = testData.get("Execution Required").toLowerCase();
 		String expectedTitle = testData.get("Expected Title");
 		String input=testData.get("Input");
 
 		// if execution required field is no
-		HelperClass.toCheckExecutionRequired(executionRequired);
+		//HelperClass.toCheckExecutionRequired(executionRequired);
 		
 		AppliencesPage appliance=new AppliencesPage(driver);
 		
@@ -57,7 +57,7 @@ public class Appliences extends BaseClass {
 		extentTest.log(LogStatus.INFO, "search box is clicked  is searched");
 		// click on search button
 
-		appliance.clickOnSearchButton();
+		//appliance.clickOnSearchButton();
 		extentTest.log(LogStatus.INFO, "after searching first result is got clicked");
 		logger.info("after searching first result is got clicked");
 

@@ -2,15 +2,12 @@ package TestCases;
 
 import java.time.Duration;
 import java.util.HashMap;
-
-import org.testng.annotations.Test;
-
 import com.relevantcodes.extentreports.LogStatus;
-
 import Automation.Utilities.ReadingPropertiesFile;
 import Utilities.BaseClass;
 import Utilities.HelperClass;
 import flipkart.Pages.AddToCartPage;
+import org.testng.annotations.Test;
 
 public class AddToCart extends BaseClass {
 	private String sheetName = ReadingPropertiesFile.getProperty("ProductPageSheetName");
@@ -22,7 +19,7 @@ public class AddToCart extends BaseClass {
 		extentTest = extentReport.startTest(testName, testName + " started");
 
 		// Fetching all test data from excel file
-		HashMap<String, String> testData = new HashMap<String, String>();
+		HashMap<String, String> testData;
 		testData = reader.getRowTestData(sheetName, testName);
 		String executionRequired = testData.get("Execution Required").toLowerCase();
 		String expectedTitle = testData.get("Expected Title");
@@ -39,11 +36,11 @@ public class AddToCart extends BaseClass {
 
 		addtocart.ClickOnSearchBox();
 		extentTest.log(LogStatus.INFO, "search box is clicked and SearchItem is  serached");
-		logger.info("search box is clicked and SearchItem is  serached");
+		logger.info("search box is clicked and SearchItem is  searched");
 
 		addtocart.ClickOnSearchButton();
-		extentTest.log(LogStatus.INFO, "serach button is clicked");
-		logger.info("serach button is clicked");
+		extentTest.log(LogStatus.INFO, "search button is clicked");
+		logger.info("search button is clicked");
 
 		addtocart.CLickedOnItem();
 		extentTest.log(LogStatus.INFO, "first result is clicked on the screen");
@@ -56,11 +53,11 @@ public class AddToCart extends BaseClass {
 		System.out.println("url_iphone");
 
 		addtocart.clickonaddTocart();
-		extentTest.log(LogStatus.INFO, "the item is succesfully added to cart");
-		logger.info(" the item is succesfully added to cart");
+		extentTest.log(LogStatus.INFO, "the item is successfully added to cart");
+		logger.info(" the item is successfully added to cart");
 
 		System.out.println("added To Cart");
-		logger.info(" the item is succesfully added to cart");
+		logger.info(" the item is successfully added to cart");
 
 	}
 }
